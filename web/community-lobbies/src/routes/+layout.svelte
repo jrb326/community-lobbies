@@ -1,0 +1,33 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;900&display=swap');
+
+    :global(:root) {
+        --primary-background-color: #1c1b1e;
+        --secondary-background-color: #26262f;
+        --tertiary-background-color: #24242a;
+
+        --primary-text-color: #eae5f3;
+        --secondary-text-color: #a9a2b6;
+        --tertiary-text-color: #524b5e;
+
+        --shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        --heavy-shadow: 2px 2px 10px rgba(0,0,0,0.35);
+        --light-shadow: 2px 2px 15px rgba(255,255,255,0.4);
+
+        --primary-tms-color: #772ce8;
+        --secondary-tms-color: #6c24d7;
+        --faded-tms-color: rgba(201, 182, 230, 0.9);
+
+        --primary-twitch-color: #9147ff;
+        --secondary-twitch-color: #8239ef;
+        --dark-twitch-color: #552996;
+
+        --primary-discord-color: #5865f2;
+        --secondary-discord-color: #4f5ceb;
+        --dark-discord-color: #2e379c;
+    }
+</style>
+
+
+<slot></slot>
+
